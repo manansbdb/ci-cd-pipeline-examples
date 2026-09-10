@@ -1,16 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="CI/CD Pipeline Examples banner">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-label="Ci Cd Pipeline Examples banner">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ea580c"/>
-      <stop offset="55%" stop-color="#2563eb"/>
-      <stop offset="100%" stop-color="#16a34a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
     </linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
   </defs>
-  <rect width="1200" height="200" fill="url(#bg)"/>
-  <circle cx="200" cy="20" r="90" fill="#9333ea" opacity="0.2" filter="url(#soft)"/>
-  <circle cx="1000" cy="180" r="110" fill="#ea580c" opacity="0.18" filter="url(#soft)"/>
-  <polygon points="80,180 200,20 320,180" fill="#2563eb" opacity="0.35"/><polygon points="900,20 1100,180 700,180" fill="#16a34a" opacity="0.3"/><polygon points="500,160 560,60 620,160" fill="#9333ea" opacity="0.45"/>
-  <text x="600" y="95" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#ffffff">CI/CD Pipeline Examples</text>
-  <text x="600" y="140" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="20" fill="#ffffff" opacity="0.9">manansbdb · docs · EN + PT · MIT</text>
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <circle cx="1400" cy="60" r="160" fill="#38bdf8" opacity="0.15"/>
+  <circle cx="100" cy="360" r="120" fill="#22c55e" opacity="0.12"/>
+  <text x="80" y="170" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="700" fill="#f8fafc">Ci Cd Pipeline Examples</text>
+  <text x="80" y="230" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" fill="#bae6fd">Markdown stage diagrams and sample workflow YAML.</text>
+  <text x="80" y="290" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#94a3b8">MIT · EN + PT · zero paywall · manansbdb</text>
 </svg>
